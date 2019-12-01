@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Icons and Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Copyright -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <h1>Inicia tu reservacion</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <form action="reservar.php" method="post">
+                    <input class="form-control" type="text" name="nombre" id="nombre" value="Nombre"> <br> 
+                    <input class="form-control" type="text" name="telefono" id="telefono" value="Telefono"> <br> 
+                    <input class="form-control" type="date" name="entrada" id="entrada"> <br>
+                    <input class="form-control" type="date" name="salida" id="salida"> <br>
+                    <input class="form-control" type="text" name="cuartos" id="cuartos" value="Cuartos"> <br> 
+                    <input class="form-control" type="text" name="adultos" id="adultos" value="Adultos"> <br> 
+                    <input class="form-control" type="text" name="ninos" id="ninos" value="Niños"> <br> 
+
+                    <input class="btn btn-primary" type="submit" value="RESERVAR">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

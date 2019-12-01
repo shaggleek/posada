@@ -1,0 +1,148 @@
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.material-icons.md-52 {
+  font-size: 52px;
+}
+
+html, body {
+  width: 100%;
+}
+
+.grey {
+  background-color: #E5E5EE;
+  color: #404E4D;
+}
+
+h3 {
+  padding-top: 3em;
+  padding-bottom: 1.5em;
+}
+
+h5 {
+  padding-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.hov:hover {
+  color: #EF7B45;
+}
+
+.hero {
+  background-image: url("../images/arcosFiltro.jpg");
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero h1 {
+  padding-bottom: 3em;
+}
+
+.hero h6, .hero h4, .hero a, .hero i {
+  margin: 0px;
+}
+
+.hero .reserva {
+  background-color: #3C91E6;
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 15px;
+  margin: 0px;
+}
+
+.hero .reserva:hover {
+  background-color: #EF7B45;
+}
+
+.hero .redes {
+  color: white;
+  text-decoration: none;
+  margin: 0px;
+}
+
+.hero i:hover {
+  color: #EF7B45;
+}
+
+.hero .fas, .hero .fab {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 500px) {
+  .hero h6 {
+    font-size: 10px;
+  }
+}
+
+.bienvenido {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bienvenido img {
+  border-radius: 30px;
+  padding: 0px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.habitaciones {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tepotzotlan {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tepotzotlan img {
+  margin: 0px;
+  padding: 0px;
+}
+
+.servicios {
+  margin: 0px;
+  padding: 0px;
+}
+
+.servicios h5 {
+  margin-bottom: 2em;
+}
+
+.mapa {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mapa iframe {
+  margin-bottom: 1.5em;
+}
+
+.contacto {
+  margin: 0px;
+  padding: 0px;
+  background-color: #404E4D;
+  color: white;
+}
+
+.contacto p {
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=stylesheet.css.map */
